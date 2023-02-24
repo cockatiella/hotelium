@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Poppins:wght@200;300&display=swap");
 .students-room {
   -o-object-fit: cover;
      object-fit: cover;
@@ -11,6 +12,7 @@
 }
 
 .title {
+  font-family: "Merriweather", serif;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -23,6 +25,11 @@
   letter-spacing: 0.2rem;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   cursor: pointer;
+}
+
+h1,
+h3 {
+  font-family: "Merriweather", serif;
 }
 
 .title:hover {
@@ -38,6 +45,11 @@
 a {
   text-decoration: none !important;
   color: #000 !important;
+  font-family: "Poppins", sans-serif;
+}
+
+p {
+  font-family: "Poppins", sans-serif;
 }
 
 .services {
@@ -61,7 +73,7 @@ a {
 }
 
 footer {
-  background-color: #f5f5f5;
+  background-color: rgb(255, 119, 0);
   color: #000;
   padding: 2rem 0;
 }
@@ -80,11 +92,13 @@ footer ul {
 }
 footer ul li {
   margin: 1rem;
+  font-family: "Poppins", sans-serif;
 }
 footer ul li a {
   color: #000;
   text-decoration: none;
   font-size: 1.5rem;
+  font-family: "Poppins", sans-serif;
 }
 footer ul li a:hover {
   color: rgb(255, 119, 0);
@@ -105,6 +119,7 @@ form .btn {
   background-color: rgb(255, 119, 0);
   color: #fff;
   border: none;
+  font-family: "Poppins", sans-serif;
 }
 form .btn:hover {
   background-color: orange;
@@ -124,6 +139,7 @@ form .btn:hover {
     margin-bottom: 2rem;
   }
   .contact-btn {
-    display: none !important;
+    top: 15em;
+    left: 8em;
   }
 }/*# sourceMappingURL=style.css.map */
