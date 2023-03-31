@@ -36,9 +36,18 @@ h3 {
 }
 
 .contact-btn {
+ //make this button in the middle
   position: absolute;
-  cursor: pointer;
-  top: 70%;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(255, 119, 0);
+  color: #fff;
+  border: none;
+  font-family: "Poppins", sans-serif;
+  &:hover {
+    background-color: orange;
+  }
 }
 
 a {
@@ -146,8 +155,25 @@ form {
     margin-bottom: 2rem;
   }
   .contact-btn {
-    top: 15em;
-    left: 8em;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
   }
 }
 
+//media query ipad
+
+@media only screen and (max-width: 768px) {
+  .students-room {
+    height: 50vh !important;
+  }
+  .card {
+    margin-bottom: 2rem;
+  }
+  .contact-btn {
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
